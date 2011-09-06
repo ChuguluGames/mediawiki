@@ -70,9 +70,9 @@ $wgEmailAuthentication = true;
 ## Database settings
 $wgDBtype           = "mysql";
 $wgDBserver         = "localhost";
-$wgDBname           = "";
-$wgDBuser           = "";
-$wgDBpassword       = "";
+$wgDBname           = "wikidev";
+$wgDBuser           = "wikiuser";
+$wgDBpassword       = "4A75(<l&";
 
 # MySQL specific settings
 $wgDBprefix         = "";
