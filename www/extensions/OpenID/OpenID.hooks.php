@@ -37,7 +37,7 @@ class OpenIDHooks {
 
 		foreach ( $addList as $sp ) {
 			$list['OpenID' . $sp] = 'SpecialOpenID' . $sp;
-			SpecialPageFactory::setGroup( 'OpenID' . $sp, 'openid' );
+			SpecialPage::setGroup( 'OpenID' . $sp, 'openid' );
 		}
 
 		return true;
