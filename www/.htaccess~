@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^xx$ http://www.chugulu.biz/$1 [P] 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?title=$1 [PT,L,QSA]
+
+#RewriteCond %{SERVER_PORT} 80 
+#RewriteRule ^(.*)$ https://wiki.chugulu.com/$1 [R,L]
