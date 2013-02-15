@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svnroot/mediawiki/!svn/ver/89379/trunk/extensions/OpenID/patches
+END
+php-openid-2.2.2.patch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svnroot/mediawiki/!svn/ver/89379/trunk/extensions/OpenID/patches/php-openid-2.2.2.patch
+END
+openid_table.sql
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/mediawiki/!svn/ver/89371/trunk/extensions/OpenID/patches/openid_table.sql
+END
+patch-uoi_user-not-unique.sql
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/mediawiki/!svn/ver/89371/trunk/extensions/OpenID/patches/patch-uoi_user-not-unique.sql
+END
+openid_table.pg.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svnroot/mediawiki/!svn/ver/89371/trunk/extensions/OpenID/patches/openid_table.pg.sql
+END
